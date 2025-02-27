@@ -9,7 +9,7 @@ document.getElementById("loginForm").onsubmit = function (event) {
     mensagem.style.color = "green";
     mensagem.textContent = "Login bem-sucedido!";
     setTimeout(function () {
-      window.location.href = "dashboard.html"; // Redireciona para outra página
+      window.location.href = "dashboard.html";
     }, 1000);
   } else {
     mensagem.style.color = "red";
